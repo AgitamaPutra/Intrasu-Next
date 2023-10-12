@@ -5,6 +5,7 @@ import { Raleway } from 'next/font/google'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 
+
 const inter = Raleway({ subsets: ['latin'] })
 
 export const metadata = {

@@ -4,7 +4,7 @@ type Props = {
     message: string
 }
 
-export default function Hero({heading, message}: Props) {
+export default function Hero({ heading, message }: Props) {
     return (
         <div className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img">
             {/* OVERLAY */}

@@ -29,7 +29,7 @@ export default function ServiceS() {
             <div className="text-center justify-center pb-5 pt-5">
                 <p className="text-4xl font-bold mb-5">Be in Demand with Our Professional Training</p>
                 <p className="p-5">With the J-1 visa, students and graduates can complete a cultural exchange program in the USA for up to 12 months by participating in an internship.</p>
-               
+
             </div>
 
             <div className="text-center justify-center pb-12 pt-5">
