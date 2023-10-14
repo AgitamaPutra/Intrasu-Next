@@ -57,7 +57,7 @@ export default function Navbar() {
                     {Navbar && Navbar.map((item, i) => {
                         return (
                             <li key={i} className='px-4 py-2'>
-                                <Link href={item.href} className={` ${router === item.href ? 'font-black nav' : ""} hover:font-bold nav`}>
+                                <Link href={item.href}  className={` ${router === item.href ? 'font-black nav' : ""} hover:font-bold nav`}>
                                     {item.name}
                                 </Link>
                             </li>
@@ -77,14 +77,15 @@ export default function Navbar() {
                 </div>
 
                 {/* Mobile Menu */}
-                <div className={nav ? 'lg:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-64 bg-black text-center ease-in duration-300 '
+                <div className={nav ? 'lg:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-[50vh] bg-gradient-to-r from-cyan-950 to-blue-950 text-center ease-in duration-200 '
                     :
-                    'lg:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-64 bg-black text-center ease-in duration-300 '}>
+                    'lg:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-[50vh] bg-gradient-to-r from-cyan-950 to-blue-950 text-center ease-in duration-200 '}>
+                    
                     <ul >
                         {Navbar && Navbar.map((item, i) => {
                             return (
                                 <li className={`p-2 text-xl ${router === item.href ? 'font-black ' : ""} `} key={i}>
-                                    <Link href={item.href}>
+                                    <Link href={item.href} onClick={() => setNav(false)}>
                                         {item.name}
                                     </Link>
                                 </li>
