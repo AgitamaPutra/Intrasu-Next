@@ -16,7 +16,6 @@ export default function Home() {
   return (
     <AnimatePresence mode='wait' >
       <motion.div>
-
         <Hero heading='Welcome to
 Intrasu Indonesia' message='We provide internship and training programs for University Students and Fresh Graduates to get great experience worldwide' />
         <ServiceS />

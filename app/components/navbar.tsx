@@ -14,7 +14,7 @@ export default function Navbar() {
         setNav(!nav)
     }
     const router = usePathname()
-    console.log(router, "name")
+
     useEffect(() => {
         const changeColor = () => {
             if (window.scrollY >= 90) {
@@ -77,13 +77,13 @@ export default function Navbar() {
                 </div>
 
                 {/* Mobile Menu */}
-                <div className={nav ? 'lg:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+                <div className={nav ? 'lg:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-64 bg-black text-center ease-in duration-300 '
                     :
-                    'lg:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
-                    <ul>
+                    'lg:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-64 bg-black text-center ease-in duration-300 '}>
+                    <ul >
                         {Navbar && Navbar.map((item, i) => {
                             return (
-                                <li className={`p-4 text-4xl ${router === item.href ? 'font-black ' : ""} `} key={i}>
+                                <li className={`p-2 text-xl ${router === item.href ? 'font-black ' : ""} `} key={i}>
                                     <Link href={item.href}>
                                         {item.name}
                                     </Link>
@@ -91,13 +91,12 @@ export default function Navbar() {
                             )
                         })}
 
-                        <li className='p-4 text-4xl hover:text-gray-500 border'>
+                        <li className='p-2 text-xl hover:text-gray-500 border'>
                             <Link href={'/apply-now'}>
                                 Apply Now
                             </Link>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </div>

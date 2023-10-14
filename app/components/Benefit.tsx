@@ -12,7 +12,7 @@ export default function Benefits() {
                         <div key={index}  >
                             <div className="text-center" >
                                 <div className="w-full">
-                                    <Image src={item?.image} alt={item.title} width="200" height="225" style={{ textAlign: "center", width: "100%", height: "175px", borderRadius: "10px" }} />
+                                    <Image src={item?.image} alt={item.title} width="200" height="300" style={{ textAlign: "center", width: "100%", height: "200px", borderRadius: "10px" }} />
                                 </div>
                                 <h2 className="font-bold text-xl my-5 ">{item.title} </h2>
                                 <p >{item.keterangan}</p>
