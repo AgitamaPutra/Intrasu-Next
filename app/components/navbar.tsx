@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { useState, useEffect } from 'react'
-
+import { usePathname } from "next/navigation";
 export default function Navbar() {
 
     const [nav, setNav] = useState(false)
@@ -13,7 +13,8 @@ export default function Navbar() {
     const handleNav = () => {
         setNav(!nav)
     }
-
+    const router = usePathname()
+    console.log(router, "name")
     useEffect(() => {
         const changeColor = () => {
             if (window.scrollY >= 90) {
@@ -55,8 +56,8 @@ export default function Navbar() {
                 <ul style={{ color: `${textColor}` }} className='hidden md:flex'>
                     {Navbar && Navbar.map((item, i) => {
                         return (
-                            <li key={i} className='px-6 py-2'>
-                                <Link href={item.href}  className='hover:font-bold nav'>
+                            <li key={i} className='px-4 py-2'>
+                                <Link href={item.href} className={` ${router === item.href ? 'font-black nav' : ""} hover:font-bold nav`}>
                                     {item.name}
                                 </Link>
                             </li>
@@ -64,7 +65,7 @@ export default function Navbar() {
                     })}
 
                     <li className='py-2 px-4 border font-bold hover:bg-green-500 hover:drop-shadow-lg hover: duration-300 hover:z-10 hover:ease-in'>
-                        <Link href={'/'}>
+                        <Link href={'/apply-now'}>
                             Apply Now
                         </Link>
                     </li>
@@ -82,16 +83,16 @@ export default function Navbar() {
                     <ul>
                         {Navbar && Navbar.map((item, i) => {
                             return (
-                                <li className='p-4 text-4xl hover:text-gray-500' key={i}>
+                                <li className={`p-4 text-4xl ${router === item.href ? 'font-black ' : ""} `} key={i}>
                                     <Link href={item.href}>
                                         {item.name}
                                     </Link>
                                 </li>
                             )
-                        })} 
-                        
+                        })}
+
                         <li className='p-4 text-4xl hover:text-gray-500 border'>
-                            <Link href={'/'}>
+                            <Link href={'/apply-now'}>
                                 Apply Now
                             </Link>
                         </li>
