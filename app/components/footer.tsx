@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="bg-gradient-to-r from-cyan-500 to-blue-500 items-center justify-center bg-fixed bg-center bg-cover">
             {/* OVERLAY */}
             <div className="top-0 left-0 bottom-0 right-0 bg-black/70 z-[2]" >
-                <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 xl:px-32 lg:px-16 md:px-16 sm:p-5 phone:p-5'>
+                <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 xl:px-32 lg:px-16 md:px-16 sm:p-3 phone:p-3'>
                     <div className=''>
                         <div><Image src={Logo} alt='Logo intrasu' width="150" height="150" /></div>
                     </div>
@@ -36,7 +36,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='sm:mt-10 phone:mt-10 py-20 xl:px-32 lg:px-16 md:px-16 sm:p-5 phone:p-5'>
+                <div className='sm:mt-10 phone:mt-10 py-20 xl:px-32 lg:px-16 md:px-16 sm:p-3 phone:p-3'>
                     <div className='border-collapse 2xl:flex xl:flex lg:flex md:flex'>
                         <p className='text-gray-300 phone:py-1 text-xs md:pr-5 2xl:border-2 2xl:border-transparent 2xl:border-r-gray-400 xl:border-2 xl:border-transparent xl:border-r-gray-400 lg:border-2 lg:border-transparent lg:border-r-gray-400 md:border-2 md:border-transparent md:border-r-gray-400 '>All Rights Reserved</p>
                         <p className='text-gray-300 phone:py-1 text-xs md:px-5 2xl:border-2 2xl:border-transparent 2xl:border-r-gray-400 xl:border-2 xl:border-transparent xl:border-r-gray-400 lg:border-2 lg:border-transparent lg:border-r-gray-400 md:border-2 md:border-transparent md:border-r-gray-400 '>Terms & Conditions</p>

@@ -13,7 +13,7 @@ export const SpainContent = () => {
 
                 <p className='text-justify'>{`Internships in Spain can be a fantastic opportunity to gain valuable work experience, immerse yourself in Spanish culture, and develop your language skills. Here is an overview of what you can expect when pursuing an internship in Spain:`}</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Types of Internships:</span> Internships in Spain are available in various fields, including business, engineering, tourism, healthcare, education, and more. The specific type of internship you can pursue will depend on your area of study and the availability of opportunities.</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Duration: </span> {` Internship durations can vary widely, from a few weeks to several months or even a year. The length of your internship may depend on your academic requirements, the industry, and the specific company or organization offering the internship.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Paid vs. Unpaid:</span> {` While some internships in Spain are paid, many are unpaid or offer a modest stipend to cover living expenses. The availability of paid internships may depend on the industry and the company's policies. Be sure to clarify the compensation arrangement with your prospective employer.`}</li>
@@ -35,7 +35,7 @@ export const SpainContent = () => {
                 </div>
                 <p className='text-justify'>{`Internship experiences in Spain can be diverse and rewarding, offering a unique blend of professional development and cultural immersion. Here are some common aspects and highlights of internship experiences in Spain:`}</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Cultural Immersion:</span>{` Interning in Spain provides an excellent opportunity to immerse yourself in Spanish culture. You can explore local traditions, festivals, cuisine, and language. Spanish culture is known for its warmth and hospitality, which often extends to the workplace.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Language Skills: </span> {`Spanish is the official language of Spain, and many internships require at least a basic understanding of the language. Immersing yourself in a Spanish-speaking environment can significantly improve your language skills, making you more marketable in the global job market.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Professional Development:</span> {` Internships in Spain offer valuable professional development opportunities. You can gain hands-on experience, apply your classroom knowledge to real-world situations, and develop practical skills in your chosen field.`}</li>
@@ -56,7 +56,7 @@ export const SpainContent = () => {
                 <h1 className='phone:text-2xl lg:text-4xl'>Spain <span className='font-black text-green-500'>Accomodation</span></h1>
                 <p className='text-justify mt-5'>Finding accommodation for your internship in Spain is an important step in your preparation process. The availability and cost of accommodation can vary depending on the city or region where your internship is located. Here are some options to consider when looking for accommodation in Spain:</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>University Accommodation:</span>{`If you're interning in a city with universities, check if they offer housing options for visiting students or interns. Some universities provide dormitory rooms or student residences that may be available for short-term stays.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Shared Apartments: </span> {`Sharing an apartment with roommates is a common accommodation choice for interns in Spain. You can find shared apartments through websites like Idealista, Fotocasa, or EasyPiso. Consider using platforms like Roomgo, where you can search for roommates and available rooms.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Private Rentals:</span> {`You can search for private apartments or flats for rent on various online platforms and real estate websites. Some popular options include Idealista, Fotocasa, and Pisos.com. Be prepared to sign a lease, and consider whether you want a furnished or unfurnished apartment.`}</li>
@@ -74,7 +74,7 @@ export const SpainContent = () => {
                 <h1 className='phone:text-2xl lg:text-4xl'><span className='font-black text-green-500'>Visa</span> Information</h1>
                 <p className='text-justify mt-5'>{`Finding accommodation for your internship in Spain can be a crucial part of your preparation. The specific accommodation options available to you will depend on the city or region where your internship is located, as well as your budget and preferences. Here are some common accommodation options for interns in Spain:`}</p>
                 <div className='py-2'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>University Housing:</span>{` If you are interning in a city with universities, you might have access to university housing or dormitories. Some universities offer short-term housing options for visiting students and interns. Contact the university's housing office or international student services for information.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Shared Apartments:</span> {` Many interns opt to share apartments with other students or young professionals. This can be a cost-effective way to live in Spain and allows you to split rent and utility bills. Websites like Idealista, Fotocasa, and EasyPiso are helpful for finding shared accommodation.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Private Apartments:</span> {`You can also rent a private apartment or flat. These options can vary in terms of size, location, and amenities. Popular websites for finding private rentals include Idealista, Fotocasa, Pisos.com, and Enalquiler.`}</li>

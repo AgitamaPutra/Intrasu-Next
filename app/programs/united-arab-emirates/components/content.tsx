@@ -13,7 +13,7 @@ export const UAEContent = () => {
 
                 <p className='text-justify'>{`An internship in the United Arab Emirates (UAE) can be a valuable opportunity for students and recent graduates to gain practical work experience in a dynamic and rapidly growing region. Here's an overview of what you can expect from an internship in the UAE:`}</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Diverse Industries:</span> The UAE has a diverse economy, with thriving sectors such as finance, tourism, real estate, technology, healthcare, and energy. You can find internship opportunities in various industries, depending on your field of interest.</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Location: </span> {` Internships are available in major cities like Dubai, Abu Dhabi, and Sharjah. Dubai, in particular, is known for its vibrant business environment and numerous multinational companies.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Duration:</span> {` Internship durations can vary. Some internships are short-term (a few weeks), while others can be longer (several months). It often depends on the company's needs and your availability.`}</li>
@@ -35,7 +35,7 @@ export const UAEContent = () => {
                 </div>
                 <p className='text-justify'>{`Interning in the United Arab Emirates (UAE) can be an exciting and culturally enriching experience. Here are some key aspects of what you might expect from an internship in the UAE based on typical experiences:`}</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Cultural Diversity:</span>{`The UAE is a diverse country with a mix of local Emiratis and a significant expatriate population. You'll likely work and interact with people from various nationalities and backgrounds, creating a rich cultural experience.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Professionalism: </span> {`The UAE places a high value on professionalism in the workplace. Punctuality, respect for authority, and adherence to workplace rules and etiquette are essential.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Work Environment:</span> {` The work environment in the UAE is often dynamic and fast-paced, especially in major cities like Dubai and Abu Dhabi. You may find a mix of traditional and modern workspaces, depending on the company.`}</li>
@@ -56,9 +56,9 @@ export const UAEContent = () => {
                 <h1 className='phone:text-2xl lg:text-4xl'>United Arab Emirates <span className='font-black text-green-500'>Accomodation</span></h1>
                 <p className='text-justify mt-5'>Accommodation options in the United Arab Emirates (UAE) vary depending on your budget, location, and personal preferences. The UAE, particularly cities like Dubai and Abu Dhabi, offers a wide range of housing choices, from luxury apartments to more budget-friendly options. Here are some common types of accommodations you can find in the UAE:</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Apartments:</span></li>
-                        <div className='pl-5'>
+                        <div className='pl-3'>
                             <ul>
                                 <li className='text-justify list-disc'><span className='font-bold'>Studio Apartments: </span>These are single-room apartments typically suitable for individuals or couples.</li>
                                 <li className='text-justify list-disc'><span className='font-bold'>One-Bedroom Apartments: </span>These apartments consist of a separate bedroom, living room, kitchen, and bathroom.</li>
@@ -75,7 +75,7 @@ export const UAEContent = () => {
                 </div>
                 <p className='text-justify '> {`When looking for accommodation in the UAE, consider the following factors:`}</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-disc'><span className='font-bold'>Location: </span> The UAE is known for its diverse neighborhoods, each offering a unique atmosphere and amenities. Consider factors such as proximity to work, schools, public transportation, and leisure activities when choosing a location.</li>
                         <li className='text-justify list-disc'><span className='font-bold'>Budget: </span>Determine your budget for accommodation and be realistic about your expenses. Housing costs can vary significantly depending on the city and the type of accommodation.</li>
                         <li className='text-justify list-disc'><span className='font-bold'>Amenities:</span>Consider the amenities offered by the accommodation, such as swimming pools, gyms, parking, and security.</li>
@@ -92,7 +92,7 @@ export const UAEContent = () => {
                 <p className='text-justify mt-5'>{`Visa requirements for the United Arab Emirates (UAE) can vary depending on your nationality, the purpose of your visit, and the duration of your stay. As of my last knowledge update in September 2021, I can provide you with some general information about UAE visas. However, visa policies and requirements can change, so it's essential to check with the nearest UAE embassy or consulate or visit the official website of the UAE's General Directorate of Residency and Foreign Affairs (GDRFA) for the most up-to-date information.`}</p>
                 <p className='mt-2'>Here are some common types of UAE visas:</p>
                 <div className='py-2'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Tourist Visa:</span> This visa is typically issued for short-term tourism purposes and allows visitors to stay in the UAE for 30 or 90 days, depending on the type of tourist visa.</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Visit Visa:  </span> {` Visit visas can be obtained by UAE residents to bring family members or friends to visit. The duration of a visit visa can vary, but it is often valid for 30 or 90 days.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Transit Visa:</span> {`Transit visas are issued to travelers who have a stopover in the UAE. These visas are usually valid for 96 hours (4 days).`}</li>
@@ -104,7 +104,7 @@ export const UAEContent = () => {
                 </div>
                 <p className='mt-2'>To apply for a UAE visa, you will usually need to provide the following documents and meet specific requirements:</p>
                 <div className='py-2'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-disc'>Passport with a minimum validity period (often at least six months).</li>
                         <li className='text-justify list-disc'>Completed visa application form.</li>
                         <li className='text-justify list-disc'>Passport-sized photographs.</li>

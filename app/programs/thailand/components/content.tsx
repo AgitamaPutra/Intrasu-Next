@@ -13,7 +13,7 @@ export const ThailandContent = () => {
 
                 <p className='text-justify'>{`Interning in Thailand can be a unique and culturally enriching experience. Thailand, known for its rich culture, stunning landscapes, and diverse economy, offers a range of internship opportunities across various industries. Here's an overview of what you should know about internships in Thailand:`}</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Types of Internships:</span> Internships in Thailand are available in diverse fields, including business, hospitality, tourism, healthcare, and technology. They can be paid or unpaid, depending on the industry and the organization.</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Eligibility: </span> {`Eligibility criteria may vary, but most internships are open to students, recent graduates, and young professionals. Some internships may have specific requirements or language proficiency expectations.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Duration:</span> {`Internship durations can vary widely, with some lasting a few weeks and others up to a year or more. Shorter internships are more common for international participants.`}</li>
@@ -47,7 +47,7 @@ export const ThailandContent = () => {
                 <h1 className='phone:text-2xl lg:text-4xl'>Thailand <span className='font-black text-green-500'>Accomodation</span></h1>
                 <p className='text-justify mt-5'>Finding suitable accommodation for your internship in Thailand is an important aspect of your planning. Thailand offers a range of options for intern housing. Here are some accommodation options to consider:</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>University Accommodation:</span>{`If you are interning in a city with universities, check if they offer dormitory-style accommodation for international students and interns. These accommodations are often affordable and provide a built-in community of fellow students.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Serviced Apartments: </span> {` Serviced apartments are a popular choice for expatriates and interns. They offer the convenience of a hotel with the space and amenities of an apartment. They are available for both short and long-term stays.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Shared Housing:</span> {`Consider sharing an apartment or house with other interns or expatriates. Websites like Facebook groups or dedicated housing websites can help you find roommates and available shared accommodations.`}</li>

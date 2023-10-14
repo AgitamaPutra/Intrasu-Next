@@ -9,7 +9,7 @@ export default function Partners() {
         <div className="bg-slate-100 py-20">
             <p className="text-4xl text-center phone:p-5">Our University <span className="font-black text-green-500">Partners</span></p>
             <p className="text-center justify-center py-10 phone:p-5">{`We're proud to collaborate with globally recognized organizations, diverse small-to-medium enterprises, and innovative startups.`}</p>
-            <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 xl:px-24 lg:px-24 md:px-20 sm:p-5 phone:p-5'>
+            <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 xl:px-24 lg:px-24 md:px-20 sm:p-3 phone:p-3'>
                 {PartnerData && PartnerData.map((item, index) => {
                     return (
                         <div key={index}  >

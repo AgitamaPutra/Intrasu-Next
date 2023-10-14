@@ -13,7 +13,7 @@ export const FranceContent = () => {
 
                 <p className='text-justify'>{`Interning in France can be a rewarding experience, offering opportunities for professional development, cultural immersion, and personal growth. Here's an overview of what you should know about internships in France:`}</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Types of Internships:</span>{` Internships in France are available in various fields, including business, technology, fashion, arts, hospitality, and more. They can be paid or unpaid, depending on the industry and the company.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Eligibility:</span> {` Eligibility criteria vary but often include being a student or recent graduate. Some internships may require a specific level of proficiency in French or English, depending on the company's language requirements.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Duration:</span> {`Internship durations in France can range from a few weeks to several months. The typical length is around three to six months, but this can vary based on the company's needs and your visa status.`}</li>
@@ -39,7 +39,7 @@ export const FranceContent = () => {
                 </div>
                 <p className='text-justify'>{`Internship experiences in France can be diverse and rewarding, offering a blend of professional growth, cultural immersion, and personal development. Here are some common aspects of internship experiences in France:`}</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Professional Development:</span>{` French internships often provide significant opportunities for professional growth. You'll typically work on real projects, collaborate with experienced professionals, and gain practical skills relevant to your field of study or career goals.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>International Work Environment:</span> {`France is home to a wide range of multinational companies and organizations. Interns often find themselves working in international teams, allowing for exposure to different working styles and cultures.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Language Skills:</span> {` French language proficiency can enhance your internship experience, particularly if you are in a French-speaking environment. Many internships require at least a basic understanding of French, though English is commonly used in multinational companies.`}</li>

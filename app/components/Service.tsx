@@ -7,7 +7,7 @@ export default function ServiceS() {
 
     return (
         <div className="py-5">
-            <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 xl:px-24 lg:px-24 md:px-20 sm:p-5 phone:p-5' >
+            <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 xl:px-24 lg:px-24 md:px-20 sm:p-3 phone:p-3' >
                 {Service && Service.map((item, index) => {
                     return (
                         <div className="card bg-white shadow-xl border" key={index} >
@@ -33,7 +33,7 @@ export default function ServiceS() {
             </div>
 
             <div className="text-center justify-center pb-12 pt-5">
-                <Link href={'/programs/united-states'} className="border p-3 hover:bg-green-500 hover:drop-shadow-lg hover: duration-300 hover:z-10 hover:ease-in font-bold ">
+                <Link href={'/programs/united-states'} className="border p-3 hover:bg-green-500 hover:drop-shadow-lg duration-300 hover:z-10 ease-in font-bold ">
                     {`See More >`}
                 </Link>
             </div>

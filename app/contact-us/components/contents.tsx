@@ -43,7 +43,7 @@ export const ContactContents = () => {
     ]
     return (
         <div>
-            <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:p-20 md:p-16 sm:p-5 phone:p-5 '>
+            <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:p-20 md:p-16 sm:p-3 phone:p-3 '>
                 {data && data.map((item, i) => {
                     return (
                         <a className="card bg-white shadow-md border hover:z-50 hover:bg-gray-50 hover:drop-shadow-xl duration-300 ease-in" target="_blank" href={item.href} key={i}>
@@ -63,13 +63,13 @@ export const ContactContents = () => {
                     <input type='text' className='bg-gray-50 border border-slate-300 p-2 mb-5' />
                     
                     <label>Email</label>
-                    <input type='email' className='bg-gray-50 border border-slate-300 p-2  mb-5' />
+                    <input type='email' className='bg-gray-50 border border-slate-300 p-2 mb-5' />
 
                     <label>Subject</label>
-                    <input type='text' className='bg-gray-50 border border-slate-300 p-2  mb-5' />
+                    <input type='text' className='bg-gray-50 border border-slate-300 p-2 mb-5' />
 
                     <label >Comment or Message</label>
-                    <textarea className='bg-gray-50 border border-slate-300 p-2  mb-10' />
+                    <textarea className='bg-gray-50 border border-slate-300 p-2 mb-10' />
                     
                 </div>
             </div>

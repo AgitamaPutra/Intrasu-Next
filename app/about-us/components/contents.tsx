@@ -4,7 +4,7 @@ import React from 'react'
 export const AboutContents = () => {
   return (
       <div>
-          <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-5 lg:p-20 md:p-16 sm:p-5 phone:p-5 '>
+          <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-5 lg:p-20 md:p-16 sm:p-3 phone:p-3 '>
               <div className='lg:flex'>
                   <div className='mx-auto'>
                       <Image src={'https://www.intrasu.org/wp-content/uploads/2023/07/CEO.jpg'} alt='test' width={250} height={250} className='rounded-lg shadow-lg' />

@@ -9,7 +9,7 @@ export default function HowItWork() {
         <div>
             <div className="py-20">
                 <p className="text-4xl text-center phone:p-5">How Does Our Program <span className="font-black text-green-500">Function?</span></p>
-                <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-1 md:grid-cols-11 lg:grid-cols-11 gap-4 mt-20 sm:mt-10 phone:mt-10 py-20 xl:px-32 lg:px-24 md:px-20 sm:p-5 phone:p-5'>
+                <div className='grid grid-cols-1 phone:grid-cols-1 sm:grid-cols-1 md:grid-cols-11 lg:grid-cols-11 gap-4 mt-20 sm:mt-10 phone:mt-10 py-20 xl:px-32 lg:px-24 md:px-20 sm:p-3 phone:p-3'>
                     {howItWork && howItWork.map((item, index) => {
                         return (
                             < >

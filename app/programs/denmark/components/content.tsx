@@ -13,7 +13,7 @@ export const DenmarkContent = () => {
 
                 <p className='text-justify'>{`Internships in Denmark can be a valuable opportunity for students and young professionals to gain practical work experience in a foreign country while also immersing themselves in Danish culture. Denmark is known for its strong economy, innovative industries, and high-quality education system, making it an attractive destination for internships. Here's an overview of what you need to know about internships in Denmark:`}</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Types of Internships::</span>{`Internships in Denmark can be found in various fields, including business, technology, engineering, finance, marketing, and more. They can be paid or unpaid, depending on the company and the specific internship program.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Eligibility:</span> {` Eligibility criteria may vary depending on the company and the type of internship. However, most internships are open to university students and recent graduates. Some organizations may also consider non-students or those with specific qualifications.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Duration:</span> {`Internship durations in Denmark can vary widely. Some may last for a few months, while others can extend up to a year. Shorter internships are more common, especially for international students.`}</li>
@@ -37,7 +37,7 @@ export const DenmarkContent = () => {
                 </div>
                 <p className='text-justify'>{`Internship experiences in Denmark can vary widely depending on the field, company, and individual circumstances. However, here are some common themes and experiences that interns in Denmark may encounter:`}</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>Professional Development:</span>{` Danish internships often offer excellent opportunities for professional growth. You'll likely gain valuable hands-on experience, develop practical skills, and learn about industry best practices.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>International Environment:</span> {`Many Danish companies have diverse workforces and conduct business internationally. This means you may have the chance to work with people from different cultural backgrounds, improving your cross-cultural communication skills.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Work-Life Balance:</span> {` Denmark is known for its emphasis on work-life balance. Interns often find that their work hours are reasonable, allowing them to enjoy their personal time and explore the country.`}</li>
@@ -60,7 +60,7 @@ export const DenmarkContent = () => {
                 <h1 className='phone:text-2xl lg:text-4xl'>Denmark <span className='font-black text-green-500'>Accomodation</span></h1>
                 <p className='text-justify mt-5'>Finding accommodation for your internship in Denmark is an important aspect of your planning process. Here are some tips and options to consider when searching for accommodation:</p>
                 <div className='py-5'>
-                    <ul className='pl-5'>
+                    <ul className='pl-3'>
                         <li className='text-justify list-decimal'><span className='font-bold'>University Accommodation:</span>{`If you are interning in a city with a university, check if they offer accommodation options for international students and interns. University housing can be a convenient and affordable choice.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Private Rentals:</span> {` Websites like BoligPortal, Lejebolig, and Airbnb are useful resources for finding private rental apartments or rooms. Be prepared to pay a deposit and the first month's rent in advance. Rental prices can be relatively high in Denmark, especially in major cities.`}</li>
                         <li className='text-justify list-decimal'><span className='font-bold'>Housing through the Company:</span> {` Some companies may assist their interns in finding accommodation. Check with your internship provider to see if they have any housing partnerships or recommendations.`}</li>
