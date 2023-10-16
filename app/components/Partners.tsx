@@ -2,7 +2,6 @@
 import { PartnerData } from "@/lib/data/partners"
 import Image from "next/image"
 
-
 export default function Partners() {
 
     return (    

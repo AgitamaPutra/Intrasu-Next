@@ -4,8 +4,9 @@ import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { useState, useEffect } from 'react'
 import { usePathname } from "next/navigation";
-export default function Navbar() {
+import { navData } from '@/lib/data/navData';
 
+export default function Navbar() {
     const [nav, setNav] = useState(false)
     const [color, setColor] = useState('transparent')
     const [textColor, setTextColor] = useState('white')
@@ -29,32 +30,14 @@ export default function Navbar() {
         window.addEventListener('scroll', changeColor)
     }, [])
 
-    const Navbar = [
-        {
-            name: 'Home',
-            href: '/'
-        },
-        {
-            name: 'Programs',
-            href: '/programs'
-        },
-        {
-            name: 'About Us',
-            href: '/about-us'
-        },
-        {
-            name: 'Contact Us',
-            href: '/contact-us'
-        },
-    ]
     return (
         <div style={{ backgroundColor: `${color}`, filter: `${shadow}` }} className='fixed left-0 top-0 w-full z-50 ease-in duration-300'>
             <div className='max-2-[1240px] m-auto flex justify-between items-center p-4 text-white '>
                 <Link href={'/'}>
-                    <h1 style={{ color: `${textColor}` }} className='font-bold lg:text-4xl md:text-3xl sm: text-2xl'>Intrasu Indonesia</h1>
+                    <h1 style={{ color: `${textColor}` }} className='font-bold lg:text-4xl md:text-3xl sm:text-2xl phone:text-xl'><span className='text-green-500'>Intrasu</span> Indonesia</h1>
                 </Link>
                 <ul style={{ color: `${textColor}` }} className='hidden md:flex'>
-                    {Navbar && Navbar.map((item, i) => {
+                    {navData && navData.map((item, i) => {
                         return (
                             <li key={i} className='px-4 py-2'>
                                 <Link href={item.href}  className={` ${router === item.href ? 'font-black nav' : ""} hover:font-bold nav`}>
@@ -82,7 +65,7 @@ export default function Navbar() {
                     'lg:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-[50vh] bg-gradient-to-r from-cyan-950 to-blue-950 text-center ease-in duration-200 '}>
                     
                     <ul >
-                        {Navbar && Navbar.map((item, i) => {
+                        {navData && navData.map((item, i) => {
                             return (
                                 <li className={`p-2 text-xl ${router === item.href ? 'font-black ' : ""} `} key={i}>
                                     <Link href={item.href} onClick={() => setNav(false)}>

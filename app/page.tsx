@@ -1,12 +1,9 @@
 "use client"
 
-import Image from "next/image";
-import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Benefits from "./components/Benefit";
 import HowItWork from "./components/works";
 import ServiceS from "./components/Service";
-import Footer from "./components/footer";
 import Place from "./components/Place";
 import Partners from "./components/Partners";
 import { Candidats } from "./components/Candidats";
@@ -16,8 +13,7 @@ export default function Home() {
   return (
     <AnimatePresence mode='wait' >
       <motion.div>
-        <Hero heading='Welcome to
-Intrasu Indonesia' message='We provide internship and training programs for University Students and Fresh Graduates to get great experience worldwide' />
+        <Hero heading='Welcome to Intrasu Indonesia' message='We provide internship and training programs for University Students and Fresh Graduates to get great experience worldwide' />
         <ServiceS />
         <Place />
         <Benefits />

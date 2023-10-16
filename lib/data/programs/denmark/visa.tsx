@@ -1,0 +1,6 @@
+export const VisaDenmarkData = [
+    {
+        desc: "If you're planning to undertake an internship in Denmark as a non-European Union (EU) or European Economic Area (EEA) citizen, it's crucial to navigate the visa and permit process correctly. First, ensure you meet the eligibility criteria, usually tied to being a student or recent graduate in a relevant field. Secure an internship position and review visa requirements based on your nationality and internship duration. Compile the necessary documents, including your passport, completed application form, internship offer, proof of financial means, health insurance, and passport-sized photos. Submit your application to the nearest Danish embassy or consulate, paying the applicable fee, and, if necessary, provide biometric data or attend an interview. Be proactive and apply well in advance to allow for processing. Once approved, travel to Denmark with your documents, register with local authorities if required, and adhere to visa or permit conditions. Stay informed about any extensions or transitions you may need during your internship. Keep in mind that visa and permit requirements can change, so regularly consult the official Danish Immigration Service website and embassy or consulate for the latest information."
+    },
+]
+

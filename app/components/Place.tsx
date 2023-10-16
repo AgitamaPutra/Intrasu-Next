@@ -1,8 +1,5 @@
 import { placeData } from "@/lib/data/place";
-import { Service } from "@/lib/data/service";
-import Image from "next/image";
 import Link from "next/link";
-
 
 export default function Place() {
 
