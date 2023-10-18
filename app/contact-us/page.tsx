@@ -1,6 +1,5 @@
 "use client"
 import HeroPrograms from "../programs/components/HeroPrograms";
-import ProgData from "../programs/components/ProgData";
 import { ContactContents } from "./components/contents";
 import { motion, AnimatePresence } from 'framer-motion'
 

@@ -1,16 +1,16 @@
 "use client"
 
 import HeroPrograms from "../programs/components/HeroPrograms";
-import { AboutContents } from "./components/contents";
 import { motion, AnimatePresence } from 'framer-motion'
+import { ApplyContents } from "./components/contents";
 
-export default async function AboutUs() {
+export default async function ApplyNow() {
 
   return (
     <AnimatePresence mode='wait'>
       <motion.div>
-        <HeroPrograms heading="About Us" message="We are a team with more than 15 years experience in hospitality internship, training and manpower placement" bg="about-img" />
-        <AboutContents />
+        <HeroPrograms heading="Apply Now" message="If not now, When?" bg="apply-img" />
+        <ApplyContents />
         <motion.div
           className='slide-in'
           initial={{ scaleY: 0 }}
@@ -26,6 +26,7 @@ export default async function AboutUs() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         ></motion.div>
       </motion.div>
+
     </AnimatePresence>
   )
 }
