@@ -8,10 +8,13 @@ import Place from "./components/Place";
 import Partners from "./components/Partners";
 import { Candidats } from "./components/Candidats";
 import { motion, AnimatePresence } from 'framer-motion'
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
     <AnimatePresence mode='wait' >
+      <Navbar />
       <motion.div>
         <Hero heading='Welcome to Intrasu Indonesia' message='We provide internship and training programs for University Students and Fresh Graduates to get great experience worldwide' />
         <ServiceS />
@@ -35,6 +38,7 @@ export default function Home() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         ></motion.div>
       </motion.div>
+      <Footer />
     </AnimatePresence>
   )
 }

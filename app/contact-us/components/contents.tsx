@@ -4,6 +4,7 @@ import { FaPhoneVolume } from 'react-icons/fa'
 import { BiSolidPhoneCall } from 'react-icons/bi'
 import { HiMail } from 'react-icons/hi'
 import { FaLocationDot } from 'react-icons/fa6'
+import { AddMessage } from './addMessage'
 export const ContactContents = () => {
 
     const data = [
@@ -57,22 +58,7 @@ export const ContactContents = () => {
                 })}
             </div>
             <p className='text-center text-4xl font-black mb-10 phone:mt-10 lg:mt-0'>Send Us a Message</p>  
-            <div className='card bg-white'>
-                <div className='card-body lg:mx-80'>
-                    <label>Full Name</label>
-                    <input type='text' className='bg-gray-50 border border-slate-300 p-2 mb-5' />
-                    
-                    <label>Email</label>
-                    <input type='email' className='bg-gray-50 border border-slate-300 p-2 mb-5' />
-
-                    <label>Subject</label>
-                    <input type='text' className='bg-gray-50 border border-slate-300 p-2 mb-5' />
-
-                    <label >Comment or Message</label>
-                    <textarea className='bg-gray-50 border border-slate-300 p-2 mb-10' />
-                    
-                </div>
-            </div>
+            <AddMessage />
         </div>
     )
 }
